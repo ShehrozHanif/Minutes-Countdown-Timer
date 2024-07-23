@@ -7,7 +7,7 @@ let input = await inquirer.prompt([
     {
         name: "timer",
         type: "number",
-        message: chalk.green("Kindly Set a Minute Countdown Timer"),
+        message: chalk.green("Kindly Enter a Minute to set a Countdown Timer"),
         transformer: (input, answers, flags) => {
             return chalk.yellow(input); // Change the input color
         },
